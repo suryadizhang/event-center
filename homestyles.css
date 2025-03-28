@@ -1,0 +1,26 @@
+img {
+    display: block;/* this to make the image center*/
+    margin-left: auto;
+    margin-right: auto;
+    size-adjust: 100%;/* this to make the image fit the screen*/
+    width: 70%;
+    border-radius: 15px; /* this to make round shape on the corner*/
+    }
+    section {padding: 25px; /* this to make space between the image and the text*/}
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+.welcome {text-align: center; /* this to make the text center*/
+    animation: blink 2s infinite; /* this to make the text blink 
+    https://www.geeksforgeeks.org/how-to-create-blinking-text-using-css/*/}

@@ -1,0 +1,6 @@
+img{margin-left: auto;
+    margin-right: auto;
+    size-adjust: 100%;/* this to make the image fit the screen*/
+    width: 70%;
+    border-radius: 15px; /* this to make round shape on the corner*/
+}

@@ -1,0 +1,60 @@
+
+
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}/* this to make the image bigger when hover on it*/
+.disclaimer{
+    font-size: 12px;
+    color: rgb(238, 6, 6);
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+button:hover{ background-color: rgb(59, 28, 194);}/*this to change the color of the button when hover on it
+*/
+header {
+    background-color: #31af46;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(15, 26, 173);
+    padding: 50px 50px;
+    margin: 22 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+nav a:hover {
+    background-color: #1983a3;
+    color: #000000;
+    border-radius: 5px;}
+
+/* Responsive to smaller screen  https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width: 600px) {
+    .disclaimer {
+        font-size: 10px;
+    }
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav a {
+        padding: 10px;
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+    header {
+        padding: 5px 0;
+    }
+    button:hover {
+        background-color: rgb(59, 28, 194);
+    }
+}
